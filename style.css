@@ -188,7 +188,7 @@ header {
   top: 5rem;
   overflow: hidden;
   margin-bottom: 2rem;
-  background-color: var(--black);
+  /* background-color: var(--black); */
 }
 
 .header_container {
@@ -223,7 +223,7 @@ header {
 header::before {
   content: "";
   position: absolute;
-  background-color: var(--bg);
+  /* background-color: var(--bg); */
   width: 100%;
   height: 5rem;
   bottom: 0;
@@ -454,11 +454,11 @@ header::before {
 }
 
 .bar .progress-line.js span {
-  width: 60%;
+  width: 70%;
 }
 
 .bar .progress-line.react span {
-  width: 50%;
+  width: 70%;
 }
 
 .progress-line span::before {
@@ -509,11 +509,11 @@ header::before {
 }
 
 .progress-line.js span::after {
-  content: "60%";
+  content: "70%";
 }
 
 .progress-line.react span::after {
-  content: "50%";
+  content: "70%";
 }
 
 /* =======PORTFOLIO======= */
